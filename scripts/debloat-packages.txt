@@ -1,0 +1,28 @@
+# Amazon packages to switch OFF. Nothing is deleted: restore.bat / restore.sh turns them back on.
+# Lines starting with # are ignored. Packages your Fire OS version doesn't have are skipped.
+# Remove a line if you want to keep that app.
+
+# --- Ads, promotions and tracking ---
+com.amazon.kso
+com.amazon.hedwig
+com.amazon.device.sale.service
+com.amazon.client.metrics
+com.amazon.device.crashmanager
+
+# --- Amazon apps most people don't use ---
+com.amazon.bueller.photos
+com.amazon.bueller.music
+com.amazon.imdb.tv.android.app
+com.amazon.alexashopping
+com.amazon.ags.app
+
+# --- Automatic system updates (OFF by default here; uncomment to block updates) ---
+# Blocking updates keeps your setup stable but means missing security fixes.
+# com.amazon.device.software.ota
+# com.amazon.device.software.ota.override
+# com.amazon.tv.forcedotaupdater.v2
+
+# DO NOT add these - they break the Firestick:
+#   com.amazon.tv.launcher (Amazon home, needed by Settings)
+#   com.amazon.venezia     (Appstore, needed to install/update apps)
+#   com.amazon.tv.settings.v2

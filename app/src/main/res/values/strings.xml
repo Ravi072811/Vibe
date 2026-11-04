@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Vibe</string>
+    <string name="watcher_desc">Sends the remote\'s Home button to Vibe instead of the Amazon home screen. Vibe only checks which app is on screen; it never reads screen content.</string>
+</resources>
